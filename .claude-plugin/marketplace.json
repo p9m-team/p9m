@@ -1,0 +1,14 @@
+{
+  "name": "p9m",
+  "description": "Purgatorium (p9m): self-hosted Docker sandboxes for teams and their AI agents",
+  "owner": { "name": "p9m-team", "url": "https://github.com/p9m-team" },
+  "plugins": [
+    {
+      "name": "p9m",
+      "source": { "source": "git-subdir", "url": "https://github.com/csakaszamok/p9m.git", "path": "plugins/p9m" },
+      "description": "Deploy your app to a Purgatorium sandbox: /p9m:init ties a project to its sandbox, then deploy",
+      "category": "deployment",
+      "tags": ["docker", "sandbox", "deploy", "self-hosted"]
+    }
+  ]
+}
